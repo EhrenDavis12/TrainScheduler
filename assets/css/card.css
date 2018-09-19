@@ -1,0 +1,12 @@
+:root{
+    --cardBkgColor: rgb(255, 250, 232);
+}
+
+.card{
+    margin: 1em;
+    background-color: var(--cardBkgColor);
+}
+
+.card-header{
+    text-align: center;
+}
