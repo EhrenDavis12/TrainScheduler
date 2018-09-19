@@ -1,0 +1,33 @@
+:root{
+    --jumboTextColor: white;
+    --jumboBackgroundColor: rgb(255, 250, 232);
+    --clear: rgba(0, 0, 0, 0);
+    --font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.jumbotron{
+    color: var(--jumboTextColor);
+    text-align: center;
+    background-color: var(--clear);
+    font-size: 1em;
+}
+
+body{
+    background-color: var(--clear);
+    color: var(--textColor);
+    font-family: var(--font-family);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    color: var(--textColor);
+    background-color: var(--backgroundColor);
+    margin: 0em;
+    
+}
+
+img{
+    height: 200px;
+    width: 500px;
+}
